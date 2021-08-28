@@ -1,0 +1,113 @@
+body {
+  background-image: url("./../assets/background2.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: 100%;
+  background-color: #f8f8f6;
+}
+.card1 a {
+  text-decoration: none !important;
+}
+
+.cont {
+  margin: 0 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logoMini {
+  display: flex;
+  align-items: center;
+  margin: 3.5rem 0 1.5rem 0;
+}
+
+.probabilities {
+  font-family: "DM Serif Display";
+  padding-top: 6px;
+}
+
+.resultCat {
+  display: block;
+  font-family: "DM Sans";
+  color: #1a663b;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  font-size: larger;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadBtn {
+  margin: 1rem 0;
+  outline: none;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  letter-spacing: 0.05em;
+  font-family: "Roboto", sans;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.06);
+  border: none;
+  background: #1a663b;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.input-file {
+  cursor: pointer;
+  padding: 1rem;
+  position: relative;
+  z-index: 2;
+  opacity: 0;
+}
+
+.buttonArena {
+  display: flex;
+}
+
+#spinner {
+  margin-top: 1.5rem;
+}
+
+.predict {
+  outline: none;
+  width: 180px;
+  height: 50px;
+  padding: 8px 5px;
+  border-radius: 5px;
+  letter-spacing: 0.05em;
+  font-family: "Roboto", sans;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.06);
+  border: 4px solid #1a663b;
+  background: white;
+  margin-top: 1rem;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background: white;
+  }
+
+  .logoMini {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cont {
+    padding: 1rem;
+    margin: 0 2rem;
+  }
+}
